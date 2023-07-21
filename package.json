@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build":"tsc",
+    "new": "npm run build && node index.js"
   },
   "devDependencies": {
     "jest": "^29.6.1"
