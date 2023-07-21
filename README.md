@@ -5,9 +5,10 @@
 - 🧪 [Fully tested](#run-tests) with Jest
 - 🗣 With helpful comments
 
+---
 
 
-### install dependencies
+#### install dependencies
 
 ```bash
 # NPM
@@ -17,7 +18,7 @@ npm install
 yarn
 ```
 
-### run tests
+### Run tests
 
 ```bash
 # NPM
