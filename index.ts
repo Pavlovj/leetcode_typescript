@@ -48,6 +48,9 @@ async function createFolderAndFiles(
       // Generate the problem URL and add it as a comment at the beginning of each file
       const problemUrl = `https://leetcode.com/problems/${normalizedProblemName
         .toLowerCase()
+        //remove numbers
+        .replace(/[0-9]/g, "").trim()
+        //remove spaces and replace them with dashes
         .replace(/\s/g, "-")}/`;
       const commentProblemUrl = `// ${problemUrl}\n\n`;
 
