@@ -1,1 +1,5 @@
-/node_modules
+.vscode/*
+node_modules/*
+# Ignore all .js files except *test.js
+**/*.js
+!**/*test.js
