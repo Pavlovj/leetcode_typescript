@@ -7,7 +7,7 @@
 
 
 
-#### install dependencies
+### install dependencies
 
 ```bash
 # NPM
@@ -17,7 +17,7 @@ npm install
 yarn
 ```
 
-#### run tests
+### run tests
 
 ```bash
 # NPM
