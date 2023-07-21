@@ -22,10 +22,10 @@ yarn
 
 ```bash
 # NPM
-tsc; npm run test
+npm run test
 
 # Yarn
-tsc; yarn test
+yarn test
 ```
 ### Create a new solution
 

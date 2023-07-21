@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest",
+    "test": "npm run build && jest",
     "build":"tsc",
     "new": "npm run build && node index.js"
   },
